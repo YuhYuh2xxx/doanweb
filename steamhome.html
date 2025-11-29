@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- embed font -->
     <style>
-      @import url("https://fonts.cdnfonts.com/css/motiva-sans");
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
     </style>
     <!-- font awesome -->
     <link
@@ -19,54 +19,46 @@
     <title>Homepage</title>
   </head>
   <body>
-    <!-- header -->
     <header>
-      <div class="container">
-        <div class="header">
-          <!-- header left -->
-          <div class="header__left">
-            <span class="steam-icon">
-              <img src="./assets/icon/steam.svg" alt="steam-icon" />
-            </span>
-            <ul class="header__list">
-              <li>
-                <a href="#" class="header__item header__item--active">STORE</a>
+      <div class="header">
+        <!-- header right -->
+        <div class="header__right">
+          <a href="#" class="header__logo">
+            <img src="./assets/icon/thinkmay-logo.svg" alt="thinkmay" />
+          </a>
+          <nav class="navbar">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">Trang Chủ</a>
               </li>
-              <li>
-                <a href="#" class="header__item">COMMUNITY</a>
+              <li class="nav__item">
+                <a href="#" class="nav__link nav__link--active">Giá cả</a>
               </li>
-              <li>
-                <a href="#" class="header__item">INFORMATION</a>
+              <li class="nav__item">
+                <a href="#" class="nav__link">FAQ</a>
               </li>
-              <li>
-                <a href="#" class="header__item">SUPPORT</a>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Blog</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">Liên hệ</a>
               </li>
             </ul>
-          </div>
-          <!-- header right -->
-          <div class="header__right">
-            <div class="header__cta">
-              <a href="#" class="header__cta--btn">
-                <img src="./assets/img/steam-download.png" alt="" />
-                Install Steam
-              </a>
-              <a href="#" class="header__cta--login"> login </a>
-              <span class="header__divider">|</span>
-              <a href="#" class="header__cta--language">
-                language
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="12"
-                  width="12"
-                  viewBox="0 0 640 640"
-                >
-                  <path
-                    fill="#b8b6b4"
-                    d="M300.3 440.8C312.9 451 331.4 450.3 343.1 438.6L471.1 310.6C480.3 301.4 483 287.7 478 275.7C473 263.7 461.4 256 448.5 256L192.5 256C179.6 256 167.9 263.8 162.9 275.8C157.9 287.8 160.7 301.5 169.9 310.6L297.9 438.6L300.3 440.8z"
-                  />
-                </svg>
-              </a>
+          </nav>
+        </div>
+        <!-- header left -->
+        <div class="header__left">
+          <div class="header__cta">
+            <div class="header__language">
+              <div class="header__language--btn">
+                <img src="./assets/img/vietnam-icon.png" alt="" />
+                <i
+                  class="fa-solid fa-chevron-down fa-xs"
+                  style="color: #000000"
+                ></i>
+              </div>
             </div>
+            <a href="#" class="btn header__login--btn">Đăng Ký</a>
           </div>
         </div>
       </div>
